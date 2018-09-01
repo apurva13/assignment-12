@@ -14,6 +14,7 @@ webbrowser.open("https://www.youtube.com/watch?v=g7eEYUtvRLc")
 
 
 #Q.3- Write a program to rename all the files in a directory and convert them into .jpg file format.
+import os,sys
 address = r'C:\Users\Apurva Gupta\Desktop\Python\assignment 12'
 for file in os.listdir(address):
     oldfile = os.path.join(address,file)
